@@ -1,3 +1,5 @@
+# Allure in Docker
+
 `docker run --rm -it bxwill/allure:2.13.8 allure`
 
 ```text
