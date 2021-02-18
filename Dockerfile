@@ -1,6 +1,6 @@
-ARG ALLURE_VER=2.13.8
 FROM java:8-jre-alpine
 LABEL maintainer=v.stone@163.com
+ARG ALLURE_VER=2.13.8
 
 WORKDIR /opt
 ADD https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/${ALLURE_VER}/allure-commandline-${ALLURE_VER}.tgz .
