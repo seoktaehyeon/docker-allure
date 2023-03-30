@@ -1,10 +1,10 @@
 # Allure in Docker
 
-`bxwill/allure:2.13.8`
+`bxwill/allure:2.21.0`
 
 ## allure help doc
 
-`docker run --rm -it bxwill/allure:2.13.8 allure`
+`docker run --rm -it bxwill/allure:2.21.0 allure`
 
 ```text
 Usage: allure [options] [command] [command options]
