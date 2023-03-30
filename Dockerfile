@@ -1,4 +1,4 @@
-FROM java:8-jre-alpine
+FROM java:8u111-jre-alpine
 LABEL maintainer=v.stone@163.com
 ARG ALLURE_VER=2.21.0
 
